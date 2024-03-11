@@ -38,6 +38,7 @@ const Card = () => {
         // Check if any of the input values are invalid
         if (isNaN(bill) || isNaN(tipPercent) || isNaN(people) || people === 0) {
             console.error("Invalid input values");
+            alert('Invalid input values');
             return;
         }
     
